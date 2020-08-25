@@ -1,0 +1,215 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+h6 {
+  color: #4b5d67;
+}
+
+p {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 2;
+  text-align: left;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 5%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 2rem 0 5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/* Download buttons */
+.download-button {
+  margin: 5% 6% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+  position: absolute;
+  z-index: 0;
+  transform: rotate(20deg);
+  width: 40%;
+}
+
+@media (max-width:1000px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 65%;
+  }
+
+  .big-heading {
+    text-align: center;
+  }
+}
+
+/* Features section */
+.icons {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.icons:hover {
+  color: #ff4c68;
+}
+
+#features {
+  background-color: white;
+  padding: 5% 10%;
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #ef8172;
+  font-family: "Montserrat";
+  color: #fff;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 2%;
+  width: 10%;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 5% 10%;
+}
+
+/* Pricing cards */
+#pricing {
+  padding: 2% 10%;
+}
+
+.pricing-column {
+  padding: 4% 2% 3%;
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 10%;
+  color: white;
+}
+
+.cta-buttons {
+  padding-top: 1%;
+}
+
+/* Footer */
+.social-icons {
+  display: inline-block;
+  width: 60px;
+  padding: 3% 2%;
+}
+
+.fa-instagram {
+  opacity: 50%;
+  background: white;
+  color: black;
+}
+
+.fa-instagram:hover {
+  opacity: 100%;
+  background: white;
+  color: black;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  opacity: 50%;
+  background: white;
+  color: black;
+}
+
+.fa-facebook:hover {
+  opacity: 100%;
+  background: white;
+  color: black;
+  text-decoration: none;
+}
+
+.fa-twitter {
+  opacity: 50%;
+  background: white;
+  color: black;
+}
+
+.fa-twitter:hover {
+  opacity: 100%;
+  background: white;
+  color: black;
+  text-decoration: none;
+}
+
+.fa-envelope {
+  opacity: 50%;
+  background: white;
+  color: black;
+}
+
+.fa-envelope:hover {
+  opacity: 100%;
+  background: white;
+  color: black;
+  text-decoration: none;
+}
