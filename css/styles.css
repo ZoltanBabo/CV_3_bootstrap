@@ -72,7 +72,7 @@ p {
 @media (max-width:800px) {
   .title-image {
     position: static;
-    width: 65%;
+    width: 80%;
   }
 
   .big-heading {
